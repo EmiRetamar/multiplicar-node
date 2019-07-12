@@ -5,7 +5,7 @@ const colors = require('colors');
 let listarTabla = (base, limite = 10) => {
 
     console.log('=================='.green);
-    console.log(`tabla del ${ base }`.green);
+    console.log(`Tabla del ${ base }`.green);
     console.log('=================='.green);
 
     for (let i = 1; i <= limite; i++) {
